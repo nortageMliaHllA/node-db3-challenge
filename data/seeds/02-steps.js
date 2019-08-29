@@ -22,6 +22,6 @@ exports.seed = function(knex) {
     { scheme_id: 6, step_number: 4, instructions: 'seamlessly take their place'},
     { scheme_id: 6, step_number: 3, instructions: 'artfully craft accessories'},
     { scheme_id: 6, step_number: 2, instructions: 'procure facial hair'},
-    { scheme_id: 6, step_number: 1, instructions: 'steal coworker\'s name tag'}
+    { scheme_id: 6, step_number: 1, instructions: 'steal coworkers name tag'}
   ]);
 };
