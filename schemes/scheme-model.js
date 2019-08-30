@@ -20,8 +20,8 @@ function findById(id) {
 
 function findSteps(id) {
     return db('steps')
-        .innerJoin('schemes', 'steps.scheme_id', '=',  'schemes.id')
-        .select('steps.id', 'schemes.scheme_name', 'steps.step_number', 'steps.instructions')
+        .innerJoin('schemes', 'steps.scheme_id', '=', 'schemes.id')
+        .select('steps.id', 'steps.scheme_id', 'steps.step_number', 'steps.instructions')
         .where({ scheme_id: id });
 }
 
